@@ -23,7 +23,7 @@ public class Datum_teszt {
         
         
         Scanner bill = new Scanner(System.in);
-        System.out.println("Első dátum:");
+        System.out.print("Első dátum:");
         String a = bill.nextLine();
         LocalDate elso = LocalDate.parse(a, DateTimeFormatter.ISO_DATE);
         System.out.println("Másik dátum:");
